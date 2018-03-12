@@ -14,3 +14,14 @@ miRNAgFree is a novel microRNA prediction approach based on biogenesis features,
 * [OpenJDK](http://openjdk.java.net) 1.8.0 or higher (64-bit) or [JRE](http://www.oracle.com/technetwork/java/javase/downloads) 8 or higher (64-bit).
 * [RNAcofold](https://www.tbi.univie.ac.at/RNA/index.html#download) from Vienna Package 2.0 or higher (64-bit).
 
+## Installation (Debian/Ubuntu)
+### OpenJDK
+```
+sudo apt-get install default-jdk
+```
+### Vienna Package
+```
+sudo apt-add-repository ppa:j-4/vienna-rna
+sudo apt-get update
+sudo apt-get install vienna-rna
+```
