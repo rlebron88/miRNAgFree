@@ -11,6 +11,6 @@ miRNAgFree is a novel microRNA prediction approach based on biogenesis features,
 © 2018 Computational Epigenomics Lab, Evolutionary Genomics and Bioinformatics Group. Dept. of Genetics, Inst. of Biotechnology, University of Granada, Spain
 
 ## Depencies
-* OpenJDK 1.8.0 or higher (64-bit) or JRE8.
-* RNAcofold from Vienna Package 2.0 or higher.
+* [OpenJDK](http://openjdk.java.net) 1.8.0 or higher (64-bit) or [JRE](http://www.oracle.com/technetwork/java/javase/downloads) 8 or higher (64-bit).
+* [RNAcofold](https://www.tbi.univie.ac.at/RNA/index.html#download) from Vienna Package 2.0 or higher (64-bit).
 
