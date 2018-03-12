@@ -10,7 +10,7 @@ miRNAgFree is a novel microRNA prediction approach based on biogenesis features,
 
 © 2018 Computational Epigenomics Lab, Evolutionary Genomics and Bioinformatics Group. Dept. of Genetics, Inst. of Biotechnology, University of Granada, Spain
 
-## Depencies
+## Dependencies
 * [OpenJDK](http://openjdk.java.net) 1.8.0 or higher (64-bit) or [JRE](http://www.oracle.com/technetwork/java/javase/downloads) 8 or higher (64-bit).
 * [RNAcofold](https://www.tbi.univie.ac.at/RNA/index.html#download) from Vienna Package 2.0 or higher (64-bit).
 
@@ -30,4 +30,14 @@ sudo apt-get install unzip git default-jre default-jdk
 git clone https://github.com/mlhack/miRNAgFree.git
 cd miRNAgFree
 jar cvf miRNAgFree.jar libs/*.java miRNAgFree/*.java sequences/*.java 
+```
+
+## Quick Start
+### Without install Vienna Package (standalone-only)
+```
+java –jar miRNAgFree.jar input=example_input.fa output=example_output_folder RNAcofold=./RNAcofold
+```
+### With Vienna Package already installed
+```
+java –jar miRNAgFree.jar input=example_input.fa output=example_output_folder
 ```
