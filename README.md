@@ -44,4 +44,6 @@ java –jar miRNAgFree.jar input=example_input.fa output=example_output_folder
 
 This software was developped and is mantained by Michael Hackenber at University of Granada. Please contact him via [email](mailto:hackenberg@go.ugr.es). 
 
+<mailto:user@example.com>
+
 © 2018 Computational Epigenomics Lab, Evolutionary Genomics and Bioinformatics Group. Dept. of Genetics, Inst. of Biotechnology, University of Granada, Spain
