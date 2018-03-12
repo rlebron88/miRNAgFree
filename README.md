@@ -11,6 +11,8 @@ miRNAgFree is a novel microRNA prediction approach based on biogenesis features,
 ## Dependencies
 * [OpenJDK](http://openjdk.java.net) 1.8.0 or higher (64-bit) or [JRE](http://www.oracle.com/technetwork/java/javase/downloads) 8 or higher (64-bit).
 * [RNAcofold](https://www.tbi.univie.ac.at/RNA/index.html#download) from Vienna Package 2.0 or higher (64-bit).
+* [Bowtie (optional)](http://bowtie-bio.sourceforge.net) 1.2.2 or higher (64-bit).
+* [SRA Toolkit (optional)](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft) 2.8.0 or higher (64-bit).
 
 ## Installation (Debian/Ubuntu)
 ### Standalone
