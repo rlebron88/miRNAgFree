@@ -24,13 +24,6 @@ sudo apt-get install vienna-rna
 wget -c http://bioinfo2.ugr.es:8080/ceUGR/wp-content/uploads/2017/08/miRNAgFree.zip
 unzip miRNAgFree.zip
 ```
-### Source code
-```
-sudo apt-get install unzip git default-jre default-jdk
-git clone https://github.com/mlhack/miRNAgFree.git
-cd miRNAgFree
-jar cvf miRNAgFree.jar libs/*.java miRNAgFree/*.java sequences/*.java 
-```
 
 ## Quick Start
 ### Without install Vienna Package (standalone-only)
